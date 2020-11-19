@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 350px
+}
+
+.mathFunction {
+    display: inline;
+}
+
+#endResult {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    border: none;
+    padding: 0 0 50px 0;
+}
+
+#numberInput {
+    text-align: center;
+    font-size: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(191, 194, 196);
+}
+
+.operators {
+    font-size: 50px;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    background-color: rgb(191, 194, 196);
+    border: none;
+    border-radius: 10px;
+}
+
+.operators:hover {
+    background-color: white;
+    color: rgb(191, 194, 196);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(191, 194, 196);
+}
+#minus {
+    padding: 5px 25px 5px 25px;
+}
